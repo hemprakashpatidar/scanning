@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Request Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 20px;
+      background-color: #f4f4f9;
+    }
+    input, button {
+      margin: 10px 0;
+      padding: 10px;
+      font-size: 16px;
+    }
+    .result {
+      margin-top: 20px;
+      padding: 10px;
+      background: #e7f4ea;
+      border: 1px solid #a4d5b4;
+    }
+  </style>
+</head>
+<body>
+  <h1>API Request Example</h1>
+  <p>Enter something and hit the API:</p>
+  <input type="text" id="userInput" placeholder="Type something..." />
+  <button onclick="callApi()">Send</button>
+  <div id="result" class="result"></div>
+
+  <!-- Link to external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
